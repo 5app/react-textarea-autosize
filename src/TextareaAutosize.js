@@ -148,6 +148,13 @@ export default class TextareaAutosize extends React.Component {
     React.findDOMNode(this).focus();
   }
 
+  /**
+   * Put blur on a <textarea /> DOM element.
+   */
+  blur() {
+    React.findDOMNode(this).blur();
+  }
+
 }
 
 function onNextFrame(cb) {
